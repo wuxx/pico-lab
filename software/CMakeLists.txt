@@ -13,3 +13,5 @@ add_definitions(-DPICO_DEFAULT_UART_TX_PIN=16 -DPICO_DEFAULT_UART_RX_PIN=17)
 include_directories(include)
 
 add_subdirectory(infones)
+add_subdirectory(ws2812)
+add_subdirectory(hello_serial)
