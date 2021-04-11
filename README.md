@@ -14,7 +14,8 @@ Pico-PMOD-ExtBoard
 
 # Pico PMOD扩展板介绍 
 Pico PMOD扩展板是MuseLab推出的方便用户使用Pico的扩展板，扩展板以PMOD标准引出Pico所有GPIO，同时和板载调试器DAPLink提供的SWD下载接口、串口对接，可以方便的对Pico进行烧录测试  
-![top](https://github.com/wuxx/pico-lab/blob/master/doc/top.jpg)
+
+
 # 特性   
 - 扩展板两侧通过标准PMOD接口引出所有GPIO  
 - 提供一路串口  
