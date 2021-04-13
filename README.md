@@ -81,7 +81,7 @@ $dreset
 ```
 
 # Product Link
-[Pico-PMOD-ExtBoard](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-21349689053.18.305e20f8cSEvqA&id=614093598737)
+[Pico-PMOD-ExtBoard](https://www.aliexpress.com/item/1005002511135057.html?spm=2114.12010615.8148356.1.617667e7KNATJJ)
 
 # Reference
 ### pico-sdk
