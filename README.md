@@ -15,7 +15,11 @@ Pico-PMOD-ExtBoard
 # Pico PMOD ExtBoard Introduction
 Pico PMOD ExtBoard is a user-friendly expansion board for Pico launched by MuseLab. The ExtBoard leads all GPIOs of Pico with PMOD standard, and the pico is connected with SWD download interface and serial port provided by onboard debugger DAPLink, which can be easily used for program & test of Pico.
 
-![top](https://github.com/wuxx/pico-lab/blob/master/doc/top.jpg)
+<div align=center>
+<img src="https://github.com/wuxx/pico-lab/blob/main/doc/4.jpg" width = "400" alt="" align=center />
+<img src="https://github.com/wuxx/pico-lab/blob/main/doc/1.jpg" width = "400" alt="" align=center />
+</div>
+
 # Feature
 - Standard PMOD interface
 - USB CDC Serial port
