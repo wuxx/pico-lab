@@ -64,7 +64,7 @@ $ sudo make install
 2. This repository has wrapped the command into scripts, after importing the environments variables, you can call the script in any path, note that the format of the burn suffix is `hex` or `bin`, not the drag and drop `uf2` file
 ```
 $cd pico-lab/tools
-$source env.sh
+$. ./env.sh
 $dfw xxx.hex/xxx.bin
 ```
 

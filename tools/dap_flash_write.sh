@@ -10,9 +10,11 @@ CURRENT_DIR=$(cd $(dirname $0); pwd)
 #xxx.hex or xxx.bin
 IMAGE_FILE=$1
 
-OPENOCD_ROOT=/home/pi/oss/pico/openocd
-
-OPENOCD_BIN=${OPENOCD_ROOT}/src/openocd
+if [ ${#OPENOCD_ROOT} -ne 0 ]; then
+    OPENOCD_BIN=${OPENOCD_ROOT}/src/openocd
+else
+    OPENOCD_BIN=openocd
+fi
 
 FLASH_ADDR=0x10000000
 FLASH_SIZE=0x00200000

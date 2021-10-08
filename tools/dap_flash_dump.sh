@@ -1,8 +1,13 @@
 #!/bin/bash
 
-OPENOCD_ROOT=/home/pi/oss/pico/openocd
+#OPENOCD_ROOT=/home/pi/oss/pico/openocd
 
-OPENOCD_BIN=/home/pi/oss/pico/openocd/src/openocd
+if [ ${#OPENOCD_ROOT} -ne 0 ]; then
+    OPENOCD_BIN=${OPENOCD_ROOT}/src/openocd
+else
+    OPENOCD_BIN=openocd
+fi
+
 
 FLASH_ADDR=0x10000000
 
