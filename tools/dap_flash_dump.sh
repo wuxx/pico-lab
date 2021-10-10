@@ -18,5 +18,5 @@ sudo ${OPENOCD_BIN} -s ${OPENOCD_ROOT}/tcl -f ${OPENOCD_ROOT}/tcl/interface/cmsi
     init;
     reset halt;
     dump_image flash_image_dump.bin ${FLASH_ADDR} ${FLASH_SIZE}
-    shotdown;
+    shutdown;
 "
